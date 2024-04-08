@@ -1,0 +1,14 @@
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/bin/Debug/net8.0/GettingStarted
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/bin/Debug/net8.0/GettingStarted.deps.json
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/bin/Debug/net8.0/GettingStarted.runtimeconfig.json
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/bin/Debug/net8.0/GettingStarted.dll
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/bin/Debug/net8.0/GettingStarted.pdb
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/obj/Debug/net8.0/GettingStarted.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/obj/Debug/net8.0/GettingStarted.AssemblyInfoInputs.cache
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/obj/Debug/net8.0/GettingStarted.AssemblyInfo.cs
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/obj/Debug/net8.0/GettingStarted.csproj.CoreCompileInputs.cache
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/obj/Debug/net8.0/GettingStarted.dll
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/obj/Debug/net8.0/refint/GettingStarted.dll
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/obj/Debug/net8.0/GettingStarted.pdb
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/obj/Debug/net8.0/GettingStarted.genruntimeconfig.cache
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GettingStarted/obj/Debug/net8.0/ref/GettingStarted.dll
