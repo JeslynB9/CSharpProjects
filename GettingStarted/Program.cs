@@ -1,5 +1,6 @@
 ﻿// Hello C# Microsoft Lesson
 Console.WriteLine("Hello World!");
+// Console.ReadLine takes input
 
 string aFriend = "Bill";
 Console.WriteLine("Hello " + aFriend);
