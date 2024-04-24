@@ -1,0 +1,14 @@
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/bin/Debug/net8.0/ASCIIArt
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/bin/Debug/net8.0/ASCIIArt.deps.json
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/bin/Debug/net8.0/ASCIIArt.runtimeconfig.json
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/bin/Debug/net8.0/ASCIIArt.dll
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/bin/Debug/net8.0/ASCIIArt.pdb
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/Debug/net8.0/ASCIIArt.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/Debug/net8.0/ASCIIArt.AssemblyInfoInputs.cache
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/Debug/net8.0/ASCIIArt.AssemblyInfo.cs
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/Debug/net8.0/ASCIIArt.csproj.CoreCompileInputs.cache
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/Debug/net8.0/ASCIIArt.dll
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/Debug/net8.0/refint/ASCIIArt.dll
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/Debug/net8.0/ASCIIArt.pdb
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/Debug/net8.0/ASCIIArt.genruntimeconfig.cache
+/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/Debug/net8.0/ref/ASCIIArt.dll
