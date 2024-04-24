@@ -31,7 +31,7 @@ namespace GUI
             Console.WriteLine("Generated colour: " + randomHexColour);
 
             // Create a SolidColourBrush with the random colour
-            SolidColourBrush brush = new SolidColourBrush(Colour.Parse(randomHexColour));
+            SolidColorBrush brush = new SolidColorBrush(Color.Parse(randomHexColour));
 
             // Set background colour of window
             this.Background = brush;
@@ -40,7 +40,7 @@ namespace GUI
             if (HexColourTextBlock != null)
             {
                 // Update the text block with the hexadecimal colour code
-                HexColourTextBlock.Text = $"This colour is: {randomHexColour}";
+                HexColourTextBlock.Text = $"{randomHexColour}";
             }
             else
             {
