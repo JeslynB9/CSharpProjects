@@ -8,21 +8,16 @@ class Program
         // Define ASCII frames for cat blinking animation
         string[] frames =
         {
-@" /\_/\  
-( o o ) 
- > ^ < ",
-@" /\_/\  
-( - - ) 
- > ^ < ",
-@" /\_/\  
-( o o ) 
- > ^ < ",
-@" /\_/\  
-( - - ) 
- > ^ < ",
-@" /\_/\  
-( o o ) 
- > ^ < "
+@"     /\_/\
+    ( o.o )/ )
+     > ^ <( (
+    /   \ ) )
+   (_/^\_)_/",
+@"   /\_/\ 
+  ( -.- )  / )
+   > ^ <  ( (
+    /   \ ) )
+   (_/^\_)_/"
         };
 
         // Clear console and set cursor position to the top-left corner
