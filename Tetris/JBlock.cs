@@ -1,0 +1,20 @@
+namespace Tetris
+{
+    public class JBlock : Block
+    {
+        private readonly Position[][] tiles = new Position[][]
+        {
+            new Position[] { new(0, 0), new(1, 0), new(1, 1), new(1, 2) },
+            new Position[] { new(0, 1), new(0, 2), new(1, 1), new(2, 1) },
+            new Position[] { new(1, 0), new(1, 1), new(1, 2), new(2, 2) },
+            new Position[] { new(0, 1), new(1, 1), new(2, 0), new(2, 1) }
+        };
+
+        protected readonly int[] imageIndices = { 5, 6, 7, 8 };
+
+        public override int Id => 2; 
+        public override Position StartOffset => new Position(0, 3);
+        public override Position[][] Tiles => tiles;
+        public override int[] ImageIndices => imageIndices;
+    }
+}

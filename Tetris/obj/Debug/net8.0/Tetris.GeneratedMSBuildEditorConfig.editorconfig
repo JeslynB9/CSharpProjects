@@ -1,0 +1,24 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tetris
+build_property.ProjectDir = /Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/Tetris/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/jeslynbowman/Documents/Uni/2024\, Year 2/Sem 3\, 2024/INFO1111/Self-Learning Task/Advanced/Code/Tetris/App.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/jeslynbowman/Documents/Uni/2024\, Year 2/Sem 3\, 2024/INFO1111/Self-Learning Task/Advanced/Code/Tetris/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
