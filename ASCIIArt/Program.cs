@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        // Define ASCII frames for cat blinking animation
+        // Define ASCII frames for cat moving its head animation
         string[] frames =
         {
 @"     /\_/\
@@ -39,3 +39,5 @@ class Program
         }
     }
 }
+
+

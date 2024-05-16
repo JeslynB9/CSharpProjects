@@ -2,6 +2,9 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Media.Imaging;
+using Avalonia.Visuals;
+using Avalonia.Media;
+using System;
 using System;
 using System.IO;
 using System.Threading.Tasks;
@@ -143,21 +146,47 @@ namespace Tetris
         //     }
         // }
 
-        private void DrawBlock(Block block)
+        // private void DrawBlock(Block block)
+        // {
+        //     int[] imageIndices = block.ImageIndices; // Get the image indices array
+            
+        //     for (int i = 0; i < block.Tiles[block.rotationState].Length; i++)
+        //     {
+        //         Position p = block.Tiles[block.rotationState][i]; // Get the current position in the block
+                
+        //         int row = p.Row + block.offset.Row;
+        //         int col = p.Column + block.offset.Column;
+                
+        //         if (row >= 0 && col >= 0 && row < imageControls.GetLength(0) && col < imageControls.GetLength(1))
+        //         {
+        //             int imageIndex = imageIndices[i % imageIndices.Length]; 
+        //             imageControls[p.Row, p.Column].Opacity = 1;
+        //             imageControls[row, col].Source = tileImages[imageIndex];
+        //         }
+        //     }
+        // }
+
+       private void DrawBlock(Block block)
         {
             int[] imageIndices = block.ImageIndices; // Get the image indices array
-            
+
             for (int i = 0; i < block.Tiles[block.rotationState].Length; i++)
             {
                 Position p = block.Tiles[block.rotationState][i]; // Get the current position in the block
-                
+
                 int row = p.Row + block.offset.Row;
                 int col = p.Column + block.offset.Column;
-                
+
                 if (row >= 0 && col >= 0 && row < imageControls.GetLength(0) && col < imageControls.GetLength(1))
                 {
-                    int imageIndex = imageIndices[i % imageIndices.Length]; 
+                    int imageIndex = imageIndices[i % imageIndices.Length];
                     imageControls[p.Row, p.Column].Opacity = 1;
+
+                    // Adjust image rotation based on block rotation state
+                    RotateTransform rotateTransform = new RotateTransform();
+                    rotateTransform.Angle = block.rotationState * 90; // 90 degrees per rotation state
+                    imageControls[row, col].RenderTransform = rotateTransform;
+
                     imageControls[row, col].Source = tileImages[imageIndex];
                 }
             }
