@@ -95,8 +95,7 @@ namespace Tetris
                 playAgainButton.Click += PlayAgain_Click;
             }
         }
-
-
+        
         private Image[,] SetupGameCanvas(GameGrid grid)
         {
             imageControls = new Image[grid.Rows, grid.Columns];
@@ -133,38 +132,6 @@ namespace Tetris
                 }
             }
         }
-
-
-        // private void DrawBlock(Block block)
-        // {
-        //     foreach (Position p in block.TilePositions())
-        //     {
-        //         if (p.Row >= 0 && p.Row < imageControls.GetLength(0) && p.Column >= 0 && p.Column < imageControls.GetLength(1))
-        //         {
-        //             imageControls[p.Row, p.Column].Source = tileImages[block.Id];
-        //         }
-        //     }
-        // }
-
-        // private void DrawBlock(Block block)
-        // {
-        //     int[] imageIndices = block.ImageIndices; // Get the image indices array
-            
-        //     for (int i = 0; i < block.Tiles[block.rotationState].Length; i++)
-        //     {
-        //         Position p = block.Tiles[block.rotationState][i]; // Get the current position in the block
-                
-        //         int row = p.Row + block.offset.Row;
-        //         int col = p.Column + block.offset.Column;
-                
-        //         if (row >= 0 && col >= 0 && row < imageControls.GetLength(0) && col < imageControls.GetLength(1))
-        //         {
-        //             int imageIndex = imageIndices[i % imageIndices.Length]; 
-        //             imageControls[p.Row, p.Column].Opacity = 1;
-        //             imageControls[row, col].Source = tileImages[imageIndex];
-        //         }
-        //     }
-        // }
 
        private void DrawBlock(Block block)
         {
@@ -225,12 +192,17 @@ namespace Tetris
                 {
                     int imageIndex = block.ImageIndices[i % block.ImageIndices.Length];
                     imageControls[ghostRow, ghostColumn].Opacity = 0.25;
+
+                    // Apply rotation transform
+                    RotateTransform rotateTransform = new RotateTransform();
+                    rotateTransform.Angle = block.rotationState * 90; // 90 degrees per rotation state
+                    imageControls[ghostRow, ghostColumn].RenderTransform = rotateTransform;
+
                     imageControls[ghostRow, ghostColumn].Source = tileImages[imageIndex];
                 }
                 i++; // Increment the counter
             }
         }
-
 
         private void Draw(GameState gameState)
         {

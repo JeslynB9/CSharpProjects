@@ -128,10 +128,18 @@ namespace Tetris
         {
             foreach (Position tilePosition in this.CurrentBlock.Tiles[this.CurrentBlock.rotationState])
             {
-                int imageIndex = this.CurrentBlock.ImageIndices[this.CurrentBlock.rotationState];
+                // Get the index of the tile in the block
+                int tileIndex = Array.IndexOf(this.CurrentBlock.Tiles[this.CurrentBlock.rotationState], tilePosition);
+                
+                // Get the corresponding image index
+                int imageIndex = this.CurrentBlock.ImageIndices[tileIndex];
+                
+                // Calculate the position for the current image index
                 Position blockPosition = new Position(tilePosition.Row + this.CurrentBlock.offset.Row, tilePosition.Column + this.CurrentBlock.offset.Column);
                 
                 Console.WriteLine($"Setting image index {imageIndex} at position {blockPosition.Row},{blockPosition.Column}");
+                
+                // Set the image index in the game grid at the calculated position
                 GameGrid[blockPosition.Row, blockPosition.Column] = imageIndex;
             }
 
