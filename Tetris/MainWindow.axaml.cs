@@ -286,5 +286,6 @@ namespace Tetris
             GameOverMenu.IsVisible = false;
             await GameLoop();
         }
+        
     }
 }

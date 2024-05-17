@@ -8,6 +8,7 @@
         Foreground="White"
         FontFamily="Segoe UI Light" FontSize="28"
         KeyDown="Window_KeyDown">
+        
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -70,16 +71,19 @@
                 IsVisible="False">
             <StackPanel HorizontalAlignment="Center"
                         VerticalAlignment="Center">
-                <TextBlock Text="Game Over"
+                <TextBlock Text="Game Over!!"
                             FontSize="48"
+                            Foreground="Red"
                             TextAlignment="Center"/>
                 <TextBlock x:Name="FinalScoreText"
                             Text="Score: "
                             FontSize="36"
+                            Margin="0,20,0,0"
                             TextAlignment="Center"/>
                 <Button x:Name="PlayAgainButton"
                         Content="Play Again"
-                        Background="LightGreen"
+                        Background="#9900ff"
+                        Foreground="White"
                         Margin="0,20,0,0"
                         HorizontalAlignment="Center"/>
             </StackPanel>
