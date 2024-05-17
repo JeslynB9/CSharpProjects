@@ -5,7 +5,6 @@ using Avalonia.Media.Imaging;
 using Avalonia.Visuals;
 using Avalonia.Media;
 using System;
-using System;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -237,24 +236,31 @@ namespace Tetris
             switch (e.Key)
             {
                 case Key.Left:
+                    Console.WriteLine("MoveBlockLeft invoked");
                     gameState.MoveBlockLeft();
                     break;
                 case Key.Right:
+                    Console.WriteLine("MoveBlockRight invoked");
                     gameState.MoveBlockRight();
                     break;
                 case Key.Down:
+                    Console.WriteLine("MoveBlockDown invoked");
                     gameState.MoveBlockDown();
                     break;
                 case Key.Up:
+                    Console.WriteLine("RotateBlockCW invoked");
                     gameState.RotateBlockCW();
                     break;
                 case Key.Z:
+                    Console.WriteLine("RotateBlockCCW invoked");
                     gameState.RotateBlockCCW();
                     break;
                 case Key.C:
+                    Console.WriteLine("HoldBlock invoked");
                     gameState.HoldBlock();
                     break;
-                case Key.Space:
+                case Key.LeftShift:
+                    Console.WriteLine("DropBlock invoked");
                     gameState.DropBlock();
                     break;
                 default:

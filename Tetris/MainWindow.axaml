@@ -62,7 +62,6 @@
                     Margin="20"
                     Width="125"/>
         </StackPanel>
-        
 
         <Grid x:Name="GameOverMenu"
                 Background="#CC000000"
