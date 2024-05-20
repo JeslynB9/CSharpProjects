@@ -57,4 +57,17 @@ To run this project, follow these steps:
  dotnet run
  ```
 
+## Gameplay Instructions
+The following are instructions on how to play the game:
+- Left arrow: Move current block left.
+- Right arrow: Move current block right.
+- Down arrow: Move current block down.
+- Up arrow: Rotate curent block clockwise.
+- Z key: Rotate current block counter-clockwise.
+- C key: Hold the current block.
+- Left Shift key: hard drop the block.
+
+Points are accumulated based on the number of rows that has been cleared.\
+You are able to continute to play the game once to lose by pressing the blue "Play Again" button.
+
    
