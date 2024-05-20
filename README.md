@@ -68,6 +68,6 @@ The following are instructions on how to play the game:
 - Left Shift key: hard drop the block.
 
 Points are accumulated based on the number of rows that has been cleared.\
-You are able to continute to play the game once to lose by pressing the blue "Play Again" button.
+You are able to continute to play the game once to lose by pressing the purple "Play Again" button.
 
    
