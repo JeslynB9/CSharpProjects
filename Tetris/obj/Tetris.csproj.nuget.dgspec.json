@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/Tetris/Tetris.csproj": {}
+    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/Tetris/Tetris.csproj": {}
   },
   "projects": {
-    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/Tetris/Tetris.csproj": {
+    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/Tetris/Tetris.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/Tetris/Tetris.csproj",
+        "projectUniqueName": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/Tetris/Tetris.csproj",
         "projectName": "Tetris",
-        "projectPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/Tetris/Tetris.csproj",
+        "projectPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/Tetris/Tetris.csproj",
         "packagesPath": "/Users/jeslynbowman/.nuget/packages/",
-        "outputPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/Tetris/obj/",
+        "outputPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/Tetris/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeslynbowman/.nuget/NuGet/NuGet.Config"

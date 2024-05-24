@@ -30,7 +30,7 @@ namespace Tetris
             return blocks[random.Next(blocks.Length)];
         }
 
-        // returnsd the next block and updates the property
+        // Returns the next block and updates the property
         public Block GetAndUpdate()
         {
             Block block = NextBlock;

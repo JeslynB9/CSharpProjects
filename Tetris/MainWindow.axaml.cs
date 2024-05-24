@@ -12,6 +12,7 @@ namespace Tetris
 {
     public partial class MainWindow : Window
     {
+        // Array of the tile images used
         private readonly Bitmap[] tileImages = new Bitmap[]
         {
             new Bitmap(new Uri("Assets/TileEmpty.png", UriKind.Relative).ToString()),
@@ -59,6 +60,7 @@ namespace Tetris
             new Bitmap(new Uri("Assets/Passionfruit Icecream Cat/4.png", UriKind.Relative).ToString())
         };
 
+        // Array of block images
         private readonly Bitmap[] blockImages = new Bitmap[]
         {
             new Bitmap(new Uri("Assets/Block-Empty.png", UriKind.Relative).ToString()),
@@ -71,8 +73,10 @@ namespace Tetris
             new Bitmap(new Uri("Assets/Block-Z_BG.png", UriKind.Relative).ToString())
         };
 
+        // 2D array to hold image controls for the game grid
         private Image[,] imageControls;
 
+        // Game state instance to manage the game's logic and state
         private GameState gameState = new GameState();
 
         public MainWindow()
@@ -94,11 +98,12 @@ namespace Tetris
                 playAgainButton.Click += PlayAgain_Click;
             }
         }
-        
+
+        // Sets up the game canvas with image controls based on the grid size        
         private Image[,] SetupGameCanvas(GameGrid grid)
         {
             imageControls = new Image[grid.Rows, grid.Columns];
-            int cellSize = 25;
+            int cellSize = 25; // Size of each cell in the grid
 
             for (int r = 0; r < grid.Rows; r++)
             {
@@ -110,6 +115,7 @@ namespace Tetris
                         Height = cellSize
                     };
 
+                    // Position each image control on the canvas
                     Canvas.SetTop(imageControl, (r - 2) * cellSize + 10);
                     Canvas.SetLeft(imageControl, c * cellSize);
                     GameCanvas.Children.Add(imageControl);
@@ -119,6 +125,7 @@ namespace Tetris
             return imageControls;
         }
 
+        // Draws the current state of the game grid
         private void DrawGrid(GameGrid grid)
         {
             for (int r = 0; r < grid.Rows; r++)
@@ -132,6 +139,7 @@ namespace Tetris
             }
         }
 
+        // Draws the current active block on the grid
        private void DrawBlock(Block block)
         {
             int[] imageIndices = block.ImageIndices; // Get the image indices array
@@ -158,12 +166,14 @@ namespace Tetris
             }
         }
 
+        // Draws the next block in the queue
         private void DrawNextBlock(BlockQueue blockQueue)
         {
             Block next = blockQueue.NextBlock;
             NextImage.Source = blockImages[next.Id];
         }
 
+         // Draws the held block (if any)
         private void DrawHeldBlock(Block heldBlock)
         {
             if (heldBlock == null)
@@ -176,6 +186,7 @@ namespace Tetris
             }
         }
 
+        // Draws the ghost block, indicating where the current block will land
         private void DrawGhost(Block block)
         {
             int dropDistance = gameState.BlockDropDistance();
@@ -203,6 +214,7 @@ namespace Tetris
             }
         }
 
+        // Draws the entire game state, including grid, blocks, and UI elements
         private void Draw(GameState gameState)
         {
             DrawGrid(gameState.GameGrid);
@@ -213,12 +225,13 @@ namespace Tetris
             ScoreText.Text = $"Score: {gameState.Score}";
         }
 
+        // Main game loop that handles the game timing and updating
         private async Task GameLoop()
         {
             Draw(gameState);
             while (!gameState.GameOver)
             {
-                await Task.Delay(500);
+                await Task.Delay(500); // Game loop delay
                 gameState.MoveBlockDown();
                 Draw(gameState);
             }
@@ -226,6 +239,7 @@ namespace Tetris
             FinalScoreText.Text = $"Score: {gameState.Score}";
         }
 
+        // Handles key press events for controlling the game
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
             if (gameState.GameOver)
@@ -270,19 +284,22 @@ namespace Tetris
             Draw(gameState);
         }
 
+        // Event handler for when the window is attached to the visual tree
         private void MainWindow_AttachedToVisualTree(object sender, VisualTreeAttachmentEventArgs e)
         {
             GameCanvas_Loaded();
         }
 
+        // Event handler for when the game canvas is loaded
         private async void GameCanvas_Loaded()
         {
             await GameLoop();
         }
 
+        // Event handler for the "Play Again" button click
         private async void PlayAgain_Click(object sender, EventArgs e)
         {
-            gameState = new GameState();
+            gameState = new GameState(); // Reset game state
             GameOverMenu.IsVisible = false;
             await GameLoop();
         }

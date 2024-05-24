@@ -7,6 +7,8 @@ namespace Tetris
     public class GameState
     {
         private Block currentBlock;
+
+        // Property for accessing the current block
         public Block CurrentBlock
         {
             get => currentBlock;
@@ -15,10 +17,12 @@ namespace Tetris
                 currentBlock = value;
                 currentBlock.Reset();
 
+                // Attempts to move the block down twice to its starting position
                 for (int i = 0; i < 2; i++)
                 {
                     currentBlock.Move(1, 0);
 
+                    // If the block doesn't fit, move it back up
                     if (!BlockFits())
                     {
                         currentBlock.Move(-1, 0);
@@ -27,14 +31,25 @@ namespace Tetris
             }
         }
 
+        // The grid representing the game area
         public GameGrid GameGrid { get; }
+
+        // Queue for managing the upcoming blocks
         public BlockQueue BlockQueue { get; }
+
+        // Indicates if the game is over
         public bool GameOver { get; private set;}
+
+        // Tracks the player's score
         public int Score { get; private set;}
+
+        // The block currently held by the player
         public Block HeldBlock { get; private set;}
+
+        // Indicates if the player can hold a block
         public bool CanHold { get; private set;}
 
-        // Constructor 22 rows and 10 columns
+        // Constructor initializing the game grid and block queue
         public GameState()
         {
             GameGrid = new GameGrid(22, 10);
@@ -55,6 +70,8 @@ namespace Tetris
             }
             return true;
         }
+
+        // Allows the player to hold a block
         public void HoldBlock()
         {
             if (!CanHold)
@@ -75,7 +92,6 @@ namespace Tetris
 
             CanHold = false;
         }
-
 
         // Rotate the current block clockwise, only if it is possible from where it is
         public void RotateBlockCW()
@@ -167,6 +183,7 @@ namespace Tetris
             }
         }
 
+        // Calculates the distance a tile can drop
         private int TileDropDistance(Position p)
         {
             int drop = 0;
@@ -179,6 +196,7 @@ namespace Tetris
             return drop;
         }
 
+        // Calculates the maximum distance the current block can drop
         public int BlockDropDistance()
         {
             int drop = GameGrid.Rows;
@@ -190,6 +208,7 @@ namespace Tetris
             return drop;
         }
 
+        // Drops the current block to the bottom and places it
         public void DropBlock()
         {
             CurrentBlock.Move(BlockDropDistance(), 0);
