@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GUI/GUI.csproj": {}
+    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/GUI/GUI.csproj": {}
   },
   "projects": {
-    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GUI/GUI.csproj": {
+    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/GUI/GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GUI/GUI.csproj",
+        "projectUniqueName": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/GUI/GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GUI/GUI.csproj",
+        "projectPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/GUI/GUI.csproj",
         "packagesPath": "/Users/jeslynbowman/.nuget/packages/",
-        "outputPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GUI/obj/",
+        "outputPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/GUI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeslynbowman/.nuget/NuGet/NuGet.Config"

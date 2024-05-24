@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+cOePaJKDZkUQS4Wbwbt/f15gExxzgu9YQyTj2BLJC+iDYgOCWcxclmfSdIiCCcB8vR5fCHzJDQFVwz7SMblVQ==",
+  "dgSpecHash": "rzM9eQ0fkTDi/vFU8+XU/gs5Bezj9noWIvpo1XMRAeXiwqwuMQ/dJZKr0hQkfI4B8g4PgPXqwf4nGOXpu2Qqtg==",
   "success": true,
-  "projectFilePath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GUI/GUI.csproj",
+  "projectFilePath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/GUI/GUI.csproj",
   "expectedPackageFiles": [
     "/Users/jeslynbowman/.nuget/packages/avalonia/11.0.10/avalonia.11.0.10.nupkg.sha512",
     "/Users/jeslynbowman/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2023020321/avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

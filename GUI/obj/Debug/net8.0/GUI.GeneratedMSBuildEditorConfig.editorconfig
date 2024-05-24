@@ -13,12 +13,12 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GUI
-build_property.ProjectDir = /Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/GUI/
+build_property.ProjectDir = /Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/GUI/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/Users/jeslynbowman/Documents/Uni/2024\, Year 2/Sem 3\, 2024/INFO1111/Self-Learning Task/Advanced/Code/GUI/App.axaml]
+[/Users/jeslynbowman/Documents/Uni/2024\, Year 2/Sem 3\, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/GUI/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/Users/jeslynbowman/Documents/Uni/2024\, Year 2/Sem 3\, 2024/INFO1111/Self-Learning Task/Advanced/Code/GUI/MainWindow.axaml]
+[/Users/jeslynbowman/Documents/Uni/2024\, Year 2/Sem 3\, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/GUI/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
