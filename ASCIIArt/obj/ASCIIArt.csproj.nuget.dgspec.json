@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/ASCIIArt.csproj": {}
+    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/ASCIIArt/ASCIIArt.csproj": {}
   },
   "projects": {
-    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/ASCIIArt.csproj": {
+    "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/ASCIIArt/ASCIIArt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/ASCIIArt.csproj",
+        "projectUniqueName": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/ASCIIArt/ASCIIArt.csproj",
         "projectName": "ASCIIArt",
-        "projectPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/ASCIIArt.csproj",
+        "projectPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/ASCIIArt/ASCIIArt.csproj",
         "packagesPath": "/Users/jeslynbowman/.nuget/packages/",
-        "outputPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/Code/ASCIIArt/obj/",
+        "outputPath": "/Users/jeslynbowman/Documents/Uni/2024, Year 2/Sem 3, 2024/INFO1111/Self-Learning Task/Advanced/jbow2146SelfLearningAdvanced/ASCIIArt/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jeslynbowman/.nuget/NuGet/NuGet.Config"
