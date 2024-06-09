@@ -201,7 +201,7 @@ namespace Tetris
                 if (ghostRow >= 0 && ghostColumn >= 0 && ghostRow < imageControls.GetLength(0) && ghostColumn < imageControls.GetLength(1))
                 {
                     int imageIndex = block.ImageIndices[i % block.ImageIndices.Length];
-                    imageControls[ghostRow, ghostColumn].Opacity = 0.25;
+                    imageControls[ghostRow, ghostColumn].Opacity = 0.15;
 
                     // Apply rotation transform
                     RotateTransform rotateTransform = new RotateTransform();
