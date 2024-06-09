@@ -154,7 +154,7 @@ namespace Tetris
                 if (row >= 0 && col >= 0 && row < imageControls.GetLength(0) && col < imageControls.GetLength(1))
                 {
                     int imageIndex = imageIndices[i % imageIndices.Length];
-                    imageControls[p.Row, p.Column].Opacity = 1;
+                    imageControls[row, col].Opacity = 1;  // Full opacity for the real block
 
                     // Adjust image rotation based on block rotation state
                     RotateTransform rotateTransform = new RotateTransform();
